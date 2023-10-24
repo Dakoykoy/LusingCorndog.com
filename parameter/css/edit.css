@@ -16,7 +16,8 @@
     margin:50px;
 }
 .Rectangle{
-color:white;
+
+    color:white;
     text-align: center;
     text-decoration: none;
     object-position:50px;
@@ -46,11 +47,13 @@ color:white;
     border-radius: 5px; 
     padding: 50px;
     margin:50px;
+    
 }
 .Back{
 
     font-size:x-large;
 }
+
 #Home{
     
     text-decoration: none;
@@ -65,14 +68,20 @@ color:white;
     border-radius: 5px; 
     padding: 50px;
     margin: 120px;
+    
+
+
 }
 
-html, body{
-  height: 100px;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}  
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+
 #video-background {
     position: fixed; 
     top: 0;
@@ -83,11 +92,12 @@ html, body{
     z-index: -1; 
 }
 
+
 #content {
-  position: relative;
-  z-index 1;
-  
-}  
+    position: relative; 
+    z-index: 1; 
+
+}
 
   
   
