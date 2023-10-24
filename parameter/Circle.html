@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
- <link rel="stylesheet" href="css/edit.css">
+<link rel="stylesheet" href="css/edit.css">
 
-    
 <body>
-    <a href="Home.html" style="text-decoration: none;color: white;" id="Back"> Back</a>
-
-    <div class="Rectangle">
-        <h2>Rectangle</h2>
-        <label for="rectLength" >Enter:</label>
-        <input type="number" id="rectLength" placeholder="Radius">
-        <label for "rectWidth">Enter:</label>
-        <input type="number" id="rectWidth" placeholder="Width">
-        <button onclick="calculateRectangle()">Calculate</button>
-        <p>Area: <span id="rectArea"></span></p>
-        <p>Perimeter: <span id="rectPerimeter"></span></p>
+    <a href="Home.html" style="text-decoration: none; color: white;">Back</a>
+    <div class="Circle">
+        <h2>Circle</h2>
+        <label for="circleRadius"  >Enter the radius:</label>
+        <input type="number" id="circleRadius">
+        <button onclick="calculateCircle()">Calculate</button>
+        <p>Diameter: <span id="circleDiameter"></span></p>
+        <p>Area: <span id="circleArea"></span></p>
+        <p>Circumference: <span id="circleCircumference"></span></p>
     </div>
+
+   
+
+
+   
 </body>
 <div class="video-container">
     <video id="video-background" autoplay loop muted>
