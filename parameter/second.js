@@ -1,6 +1,5 @@
 const video = document.getElementById("video-background");
 
-
 function calculateCircle() {
     const radius = parseFloat(document.getElementById("circleRadius").value);
     const diameter = 2 * radius;
